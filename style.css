@@ -1,20 +1,18 @@
 .body {
-    font-family: 'Roboto' sans-serif
+    font-family: 'Roboto' sans-serif;
 }
 
 .padding {
-
+    width: 100px
 }
 
 .header {
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     background: #1F2937;
     color: white;
     height: 50px;
     align-items: center;
-    wrap
-    
 }
 
 .logo {
@@ -35,4 +33,82 @@ a {
     text-decoration: none;
     size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    display:flex;
+    justify-content: center;
+    background: #1F2937;
+    padding: 100px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: fit-content;
+}
+
+.hero-text .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
+}
+
+.hero-text .secondary-text {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    color: #F9FAF8;
+    background: #3882F6;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: 1em;
+}
+
+.random-information {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-information .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 30px 0px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section {
+    width: 200px;
+}
+
+.section img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.section .text {
+    width: 200px;
 }
